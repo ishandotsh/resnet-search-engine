@@ -22,7 +22,7 @@ classes = ['person', 'bird', 'cat', 'cow', 'dog', 'horse', 'sheep', 'aeroplane',
 st.title("Toy Image Search Engine")
 st.write("Upload an image and you will get similar images in return.")
 st.write("Similarity is determined by the distance of your image's intermediate layer activations of PyTorch's pretrained ResNet34 model to the PASCAL VOC 2007 dataset.")
-class_expander = st.expander("The dataset is fairly small (500 MB) and the engine will work best for any of these classes:")
+class_expander = st.expander("The dataset is very small (~100 MB) due to heroku restrictions, so the engine will work best for any of these classes:")
 class_expander.write(classes)
 
 st.write("Thanks for checking it out!")
