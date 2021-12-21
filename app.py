@@ -1,13 +1,10 @@
-from pickle import load
-from re import search
 import streamlit as st
 import torch
 from torchvision import datasets, transforms
 from torchvision.models import resnet34
 import numpy as np
 from PIL import Image
-from fastai.vision.widgets import *
-from fastai.vision.all import *
+
 import random
 
 st.set_page_config(
