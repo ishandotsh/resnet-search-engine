@@ -4,7 +4,7 @@ from torchvision import datasets, transforms
 from torchvision.models import resnet34
 import numpy as np
 from PIL import Image
-
+ 
 import random
 
 st.set_page_config(
